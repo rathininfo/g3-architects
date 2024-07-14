@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{margin: 0;
+padding: 0;}
+
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: antiquewhite;
+    height: 1140px;
+}
+
+.header-container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* start nav section style */
+
+.nav-content{
+    padding: 50px 0px 102px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-container{
+    display: flex;
+    gap: 20px;
+}
+
+.nav-title{
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 53px;
+}
+
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0%;
+}
+
+/* End nav section style */
+
+/* start hero section style */
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.hero-title{
+    color: rgb(19, 19, 19);
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 0%;
+}
+
+.hero-description{
+    color: rgb(114, 114, 114);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px 0px ;
+}
+
+.hero-button{
+    border-radius: 8px;
+    background: rgb(255, 144, 14);
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 23px;
+    border: none;
+    padding: 21px 14px;
+    margin-bottom: 50px;
+}
+
+.hero-image{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:576px){
+    header{
+        height: 930px;
+    }
+    
+    .nav-content{
+        flex-direction: column;
+    }
+}
